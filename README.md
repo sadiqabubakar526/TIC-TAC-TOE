@@ -7,7 +7,7 @@ https://dev-tic-tac-toe.netlify.app/
 
 ## Build
 Clone the Project
-`gh repo clone sadiqabubakar526/TicTacToe`
+`gh repo clone sadiqabubakar526/TIC-TAC-TOE`
 
 Open `index.html`
 
