@@ -3,7 +3,7 @@
 Play TickTacktoe with Friends and Bots.
 
 # Play Live
-
+https://dev-tic-tac-toe.netlify.app/
 
 ## Build
 Clone the Project
