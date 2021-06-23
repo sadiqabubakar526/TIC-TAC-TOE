@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play TickTacktoe with Friends | Deveoped by Savio</title>
+    <link rel="stylesheet" href="css/multiplayer.css">
+    <link rel="icon" href="https://uxwing.com/wp-content/themes/uxwing/download/28-toys-and-childhood/tic-tac-toe.svg">
+    <link rel="stylesheet" href="css/loader.css">
+</head>
+
+<body>
+    <div class="loader-wrapper">
+        <div class="loadingio-spinner-eclipse-o78o8tpvu1p"><div class="ldio-z6kqg2nwmsq">
+        <div></div>
+        </div></div>
+    </div>
+    <div class="gamepad">
+        <h1>Tic-Tac-Toe</h1>
+        <ul id="game">
+            <!-- first row -->
+            <li data-pos="0,0"></li>
+            <li data-pos="0,1"></li>
+            <li data-pos="0,2" id="borderright"></li>
+            <!-- second row -->
+            <li data-pos="1,0"></li>
+            <li data-pos="1,1"></li>
+            <li data-pos="1,2"></li>
+            <!-- third row -->
+            <li data-pos="2,0"></li>
+            <li data-pos="2,1"></li>
+            <li data-pos="2,2"></li>
+        </ul>
+        <div class="btn">
+            <button id="reset-game">Play Again</button>
+            <button onclick="home()">Back to Home</button>
+        </div>
+    </div>
+
+    <div class="messagepad">
+
+        <aside id="nfo">
+            <!-- Game Messages -->
+            <div id="game-messages">
+                <span class="player-x-win" id="xw">Player One Wins</span>
+                <span class="player-o-win" id="ow">Player Two Wins</span>
+                <span class="draw" id="d">Draw Game</span>
+            </div>
+            <div id="whos-turn" class="x">
+                <h2>Who's Turn</h2>
+                <span class="x">Player 1</span>
+                <span class="o">Player 2</span>
+            </div>
+            
+            <div id="score">
+                <h2>Score Card</h2>
+                Player 1: <span id="player-one-score">0</span> <br />
+                Player 2: <span id="player-two-score">0</span> <br />
+            </div>
+        </aside>
+    </div>
+    <script src="js/multiplayer.js"></script>
+    <script src="js/check.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/loader.js"></script>
+    <script src="js/route.js"></script>
+</body>
+
+</html>
