@@ -3,6 +3,7 @@
 Play TickTacktoe with Friends and Bots.
 
 # Play Live
+<img src="https://github.com/sadiqabubakar526/shot-screen/blob/master/img/new.png?raw=true" width="80%" height="80%">
 https://dev-tic-tac-toe.netlify.app/
 
 ## Build
